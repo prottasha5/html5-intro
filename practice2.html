@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>story Feedback Form</title>
+    <style>
+       form .basic-info label {
+        display: block;
+        margin-top: 10px;
+
+ }
+  
+    </style>
+</head>
+<body>
+    <h2>Storytelling Contest - Feedback Form</h2>
+    <main>
+        <section>
+            <form>
+                <fieldset class="basic-info">
+                    <legend>Participate Feedback</legend>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id ="name" name="">
+                    <label for="story">Your Story:</label>
+                    <textarea name="story" id="story" cols="30" rows="10" placeholder="Write your story"></textarea> 
+                
+                   
+                    <label for="rating">Rating</label>
+                    <select id="rating" name="rating">
+                        <option value="">Select a rating</option>
+                        <option value="Fair"> Fair</option>
+                        <option value="Good">Good</option>
+                        <option value="Very Good">Very Good</option>
+                        <option value="Excellent">Excellent</option>
+
+                    </select>
+                    </fieldset>
+<input type="submit" value="Submit">
+                <input type="reset" value="Reset Form">
+            </form>
+
+        </section>
+    </main>
+</body>
+</html>

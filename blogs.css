@@ -1,0 +1,11 @@
+nav li a{
+    text-decoration: none;
+}
+ nav li a:hover{
+    background-color: aquamarine; }
+
+    nav li {
+         display: inline-block;
+         list-style: none;
+    }
+footer{text-align: center;}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online fast-food order info</title>
+    <style>
+ form .basic-info label {
+        display: block;
+        margin-top: 10px;
+
+ }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <form>
+                <fieldset class="basic-info">
+                    <legend>Basic Information</legend>
+                    <label for="name">Your Name:</label>
+                    <input type="text" id ="name" name="">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name=""> 
+                </fieldset>
+
+                <fieldset>
+                    <legend>Order Item info</legend>
+                    <input type="radio" id="burger" name="order">
+                    <label for="burger">Burger</label>
+
+                     <input type="radio" id="pizza" name="order">
+                    <label for="pizza">Pizza</label>
+
+                   <input type="radio" id="pasta" name="order">
+                    <label for="pasta">Pasta</label>   
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Extra info</legend>
+                    <textarea name="extra" id="extra" cols="30" rows="10"></textarea>
+                </fieldset>
+
+                <input type="submit" value="Submit Order">
+                <input type="reset" value="Reset Form">
+            </form>
+
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Practice Task 1</title>
+
+  <style>
+    .box{
+      width: 300px;
+      border: 2px solid black;
+      padding: 10px;
+    }
+    .search-row{
+      display: flex;
+      gap: 6px;
+      margin-bottom: 10px;
+    }
+    .search-row input{
+      flex: 1;
+      padding: 6px;
+    }
+    .search-row button{
+      padding: 6px 10px;
+      cursor: pointer;
+    }
+    img{
+      width: 100%;
+      object-fit: cover;
+    }
+    a{
+      font-size: 13px;
+    }
+
+    /* ✅ fieldset style */
+    fieldset{
+      margin-top: 10px;
+      padding: 10px;
+      border: 1px solid #333;
+    }
+    legend{
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    label{
+      display: inline-block;
+      width: 70px;
+      font-size: 13px;
+    }
+    input, textarea{
+      width: 200px;
+      padding: 4px;
+      margin-bottom: 6px;
+      font-size: 13px;
+    }
+    textarea{
+      height: 50px;
+      resize: none;
+    }
+    .submit-btn{
+      width: auto;
+      padding: 6px 12px;
+      margin-top: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <div class="search-row">
+      <input type="text" placeholder="Search your image here" />
+      <button>Search</button>
+    </div>
+
+    <img src="panda.jpg" alt="Panda Image">
+
+    <a href="#">For more click here</a>
+
+    <form>
+      <fieldset>
+        <legend>Feedback Form</legend>
+
+        <div>
+          <label for="name">Name:</label>
+          <input id="name" type="text" />
+        </div>
+
+        <div>
+          <label for="date">Date:</label>
+          <input id="date" type="date" />
+        </div>
+
+        <div>
+          <label for="comment">Comment:</label>
+          <textarea id="comment"></textarea>
+        </div>
+
+        <input class="submit-btn" type="submit" value="Submit">
+      </fieldset>
+    </form>
+  </div>
+
+</body>
+</html>

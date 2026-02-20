@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid crimson;
+            padding: 8px;
+            color:black;
+            background-color: lightblue;
+        }
+        h3{
+            color:green;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        ol{
+            color:blue;
+        }
+        tfoot{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        
+<table>
+    <caption>CTF Tools</caption>
+<thead>
+    <tr>
+        <th>No</th>
+        <th>Category</th>
+        <th>Used Tool</th>
+    </tr>
+</thead>
+
+<tbody>
+<tr>
+<td>1</td>
+<td>Web Exploitation</td>
+<td>Burp Suite</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>Reverse Engineering</td>
+    <td>Ghidra</td>
+</tr>
+<tr>
+    <td>3</td>
+    <td>Cryptography</td>
+    <td>Hashcat</td>
+</tr>
+<tr>
+    <td>4</td>
+    <td>Forensics</td>
+    <td>Autopsy</td>
+</tr>
+<tfoot>
+<tr>
+    <td colspan="3">End of the table</td>
+</tfoot>
+</tbody>
+        </table>
+    </main>
+    <section>
+        <h3>Table info</h3>
+        <ol>
+            <li>Table: table</li>
+            <li>Table head: thead</li>
+            <li>Table body: tbody</li>
+            <li>Table row: tr</li>
+            <li>Table header cell: th</li>
+            <li>Table data: td</li>
+            <li>Table footer: tfoot</li>
+        </ul>
+    </section>
+</body>
+</html>
