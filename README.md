@@ -16,12 +16,12 @@ This project contains my beginner HTML5 practice pages with CSS styling and medi
    Recommended start: hero.html or practice1.html
 
 ## Files & Folders
-- HTML files: practice1.html to practice4.html, hero.html, card.html, blogs.html, form.html, etc.
+- HTML files: practice1.html to practice4.html, hero.html, card.html, blogs.html,form.html, etc.
 - CSS files: 
-av.css, hero.css, card.css, logs.css
-- Images: panda.jpg, 
-ature.jpg, download.jpg, product1-5.jpg, alex.jpg, sara.jpg, mark.jpg
+nav.css, hero.css, card.css, blogs.css
+- Images: panda.jpg,nature.jpg,download.jpg,product1-5.jpg,alex.jpg,sara.jpg,mark.jpg
 - media/ folder: meow.mp3, kitten.mp4
 
 ## Author
 Mussharat Monir Prottasha
+
